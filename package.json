@@ -1,0 +1,21 @@
+{
+  "name": "pds-direct-route-optimizer",
+  "version": "1.0.0",
+  "description": "A smart route optimization dashboard for efficient delivery management",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "route-optimization",
+    "delivery",
+    "logistics",
+    "google-maps",
+    "dashboard"
+  ],
+  "author": "Smart Route Solutions",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
