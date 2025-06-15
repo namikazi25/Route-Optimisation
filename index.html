@@ -234,6 +234,9 @@
         let markers = [];
         let polylines = [];
         let optimizationResults = null;
+        
+        // Global COLORS array for truck route visualization
+        const COLORS = ['#FF0000', '#0000FF', '#008000', '#FFA500', '#800080', '#00CED1', '#FFD700', '#ADFF2F'];
 
         // Utility functions
         function getDistance(from, to) {
@@ -619,7 +622,7 @@
                 bounds.extend(depotCoords);
             }
 
-            const COLORS = ['#FF0000', '#0000FF', '#008000', '#FFA500', '#800080', '#00CED1', '#FFD700', '#ADFF2F'];
+
 
             // Add markers for locations and draw polylines for routes
             optimizationResults.routes.forEach((route, truckIndex) => {
